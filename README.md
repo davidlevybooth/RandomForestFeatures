@@ -1,7 +1,6 @@
 # RandomForestFeatures.py
 D. Levy-Booth 5/20/2016
 
-#Random Forest Feature Selection
 
 #Description: 
 Python implimentation of the Scikit-Learn Random Forest Classifier to select features (variables) associated with catagories or treatments. 
