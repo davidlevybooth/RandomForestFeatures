@@ -1,14 +1,14 @@
 # RandomForestFeatures.py
 
-Random Forest Feature Selection
+#Random Forest Feature Selection
 
-Description: 
+#Description: 
 Python implimentation of the Scikit-Learn Random Forest Classifier to select features (variables) associated with catagories or treatments. 
 Random forests are ensemble classifiers of classification and regression trees. 
 Use Boruta feature selection to permute the random forest classifier to calculate significance of associated features.
 
 
-This script has options to output:
+#This script has options to output:
 
 1. A .csv of your features (variables) with ranked Random Forest importance
 
@@ -19,7 +19,7 @@ This script has options to output:
 4. A plot of your features with ranked Boruta importance
 
 
-Requirements:
+#Requirements:
 
 Python 2.6 or higher (not Python 3): https://www.python.org/downloads/
 
@@ -35,7 +35,7 @@ Ensure SciKit-Learn is installed. If you've managed to get SciKit-Learn working,
 Download Boruta_py from github. Ensure that it either in your path, or in the same folder as RandomForestFeatures.py
 
 
-Usage: 
+#Usage: 
 
 In the terminal (or command line for weirdos who use windows): 
 
@@ -48,7 +48,7 @@ Required arguments:
 -p (--predvar) : catagorical variable column against which features will be selected (string)
 
 
-Optional arguments: 
+#Optional arguments: 
 
 -g (--plot) : produce a feature plot? (boolean, default = true)
 
@@ -59,14 +59,17 @@ Optional arguments:
 -b (--boruta) : perform Boruta feature selection (boolean, IMPORTANT: default is FALSE)
 
 
-Example: 
+#Example: 
 
 RandomForestFeatures.py -i dataToClassify.csv -p Catagory -o output_folder -f 20 -b true
 
 
-Advanced:
+
+
+#Advanced:
 
 Aditional variables related to the Random Forest parameters and Boruta feature selection method can be altered in the script
+
 
 Default Random Forest parameters: 
 
