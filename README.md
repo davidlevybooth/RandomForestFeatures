@@ -10,11 +10,11 @@ Use Boruta feature selection to permute the random forest classifier to calculat
 
 #This script has options to output:
 
-1. A .csv of your features (variables) with ranked Random Forest importance
+1. A table (.csv) of your features (variables) with ranked Random Forest importance
 
 2. A plot (.png) of your features with ranked Random Forest importance
 
-3. A .csv of your features with ranked Boruta importance
+3. A table of your features with ranked Boruta importance
 
 4. A plot of your features with ranked Boruta importance
 
@@ -67,7 +67,7 @@ RandomForestFeatures.py -i dataToClassify.csv -p Catagory -o output_folder -f 20
 
 ![Fungal OTUs associated with forest harvesting treatments](img/RF_Treatment-20_feature_importance.png)
 
-Fungal OTUs associated with forest harvesting treatments
+Fungal OTUs associated with forest harvesting treatments. Input file (-i) was dataToClassify.csv, catagorial variable (-p) to classify was Catagory, a folder (-o) called output_folder was created with resulting tables and plots, and Boruta feature selection was used (-b). 
 
 
 #Advanced:
