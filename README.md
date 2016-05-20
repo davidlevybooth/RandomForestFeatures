@@ -48,7 +48,7 @@ Required arguments:
 -p (--predvar) : catagorical variable column against which features will be selected (string)
 
 
-#Optional arguments: 
+Optional arguments: 
 
 -g (--plot) : produce a feature plot? (boolean, default = true)
 
