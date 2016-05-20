@@ -65,7 +65,7 @@ RandomForestFeatures.py -i dataToClassify.csv -p Catagory -o output_folder -f 20
 
 
 
-![Fungal OTUs associated with forest harvesting treatments](img/RF_Treatment-20_feature_importance.png.png)
+![Fungal OTUs associated with forest harvesting treatments](img/RF_Treatment-20_feature_importance.png)
 
 Fungal OTUs associated with forest harvesting treatments
 
